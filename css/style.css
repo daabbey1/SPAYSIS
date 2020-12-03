@@ -1,0 +1,142 @@
+html,body{
+	overflow-x: hidden;
+}
+::-ms-input-placeholder {
+	color: white;
+}
+
+/* **************************| Nav Bar |**************************** */
+.sub-head{
+    background-color: #000022;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 18px;
+    /* text-align: center; */
+}
+
+.logo{
+    /* background-color: red; */
+    display: inline;
+    margin-left: 250px;
+}
+
+.logo img{
+    height: 85px;
+}
+.tabs{
+    display: inline; 
+    margin-left: 300px;
+    /* background-color: chartreuse; */
+}
+
+.tab-link a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    /* background-color: chocolate; */
+}
+
+.tab-link-active a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 1px solid white;
+}
+
+.tab-link a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 1px solid white;
+}
+
+.tab-search{
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+    background-color: rgb(0, 195, 255);
+    padding:7px 16px 7px 16px;
+    border-radius: 8px;
+}
+
+.fa-search{
+    font-size: 22px;
+}
+
+.sub-tab{
+    /* display: none; */
+    /* padding-top: -150px; */
+}
+
+.hover-tabs{
+     background-color: #0c7ad0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px 0px;
+    text-align: center;
+   padding-left: 750px; 
+}
+
+.hover-link{
+    margin-right: 40px;
+}
+
+/* ***********************************| Carousel |******************************** */
+.carousel-inner h2{
+	font-weight: bold;
+}
+
+.foot-body{
+    /* display: inline; */
+    /* display: flex; */
+}
+
+.left-foot{
+    /* display: inline; */
+    /* text-align: right; */
+    margin-left: 300px;
+  /* justify-content: space-between; */
+}
+.right-foot{
+    /* display: inline; */
+    /* text-align: right; */
+    margin-left: 700px;
+    /* justify-content: flex-end; */
+    /* background-color: orange;
+    padding: 50px 50px 50px 20px; */
+}
+.footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	/*height: 12.9vh;*/
+}
+
+.social{
+    background-color: #000681;
+    padding: 0px 0px 0px 100px;
+}
+
+/* sm */
+@media(min-width: 576px) and (max-width:767px){}
+
+/* md */
+@media(min-width: 768px) and (max-width:991px){}
+
+/* lg */
+@media(min-width: 992px) and (max-width:1199px){}
+
+/* xl */
+@media(min-width: 1200px) {}
