@@ -1984,7 +1984,7 @@ html, body {
 
     .area-box-txt{
         color: aliceblue;
-        font-size: 2.3rem;
+        font-size: 2.0rem;
         font-weight: 500;
         line-height: 40px;
         text-align: center;
@@ -2008,11 +2008,7 @@ html, body {
         
     }
 
-    .area-color{
-        /* background-color: black; */
-        /* opacity: 1; */
-        /* color: white; */
-    }
+   
 
     .area-box-txt:hove{
         color: aliceblue;
