@@ -1932,7 +1932,7 @@ html, body {
         border: 1px solid ;
     }
     .card:hover{
-        background: #031c4e;;
+        background: #000022;
         /* height: 42vh; */
         color: aliceblue;
     }
