@@ -1686,17 +1686,13 @@ html, body {
 /* xl */
 @media(min-width: 1200px) {
     .navbar-toggler{
-        border-color: white;
+        /* border-color: white; */
     }
     .sub-head{
         background-color: #000022;
         color: white;
         padding-top: 5px;
         padding-bottom: 5px;
-    }
-
-    .nav-item{
-        /* margin-bottom: -10px; */
     }
 
     .nav-link-txt{
@@ -1948,61 +1944,7 @@ html, body {
         text-align: center;
         font-weight: 600;
     }
-    /* .infrastructure-box{ */
-        /* height: 60vh; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* text-align: center ; */
-        /* height: 40vh;
-        border: 1px solid rgb(218, 215, 215);
-        background: url('../images/deeper life2.jpg') center/cover no-repeat; */
-    }
-
-    .architecture-bo{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        height: 40vh;
-        border: 1px solid rgb(218, 215, 215);
-        background: url('../images/architecture.png') center/cover no-repeat;
-    }
-
-    .industrial-bo{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* height: 40vh;
-        border: 1px solid rgb(218, 215, 215);
-        background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat; */
-    }
-
-    .build-bo{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* height: 40vh;
-        border: 1px solid rgb(218, 215, 215);
-        background: url('../images/Land.png') center/cover no-repeat; */
-    }
-
-    .planning-bo{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* height: 40vh;
-        border: 1px solid rgb(218, 215, 215);
-        background: url('../images/barrier.jpg') center/cover no-repeat; */
-    }
-    .range-bo{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* position: relative; */
-        /* height: 40vh;
-        border: 1px solid rgb(218, 215, 215);
-        background: url('../images/range1.jpg') center/cover no-repeat; */
-    }
+      
 
     .area-box-txt{
         color: aliceblue;
@@ -2188,27 +2130,15 @@ html, body {
     .foot{
         background-color:#001744;
         color: aliceblue;
-        /* text-align: center; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
     }
 
     .foot-txt{
-        /* padding-right: 30px; */
         font-size: 20px;
         padding-top: 3px;
         padding-bottom: 3px;
-        /* background-color: orange; */
-        /* text-align: center; */
     }
 
     .foot-logo{
-        /* background-color: orchid; */
-        /* text-align: center; */
-        /* font-size: 25px; */
-        /* justify-content:right;  */
-        /* justify-items: flex-end; */
         margin-top: 4px;
         padding-top: 3px;
         padding-bottom: 3px;
