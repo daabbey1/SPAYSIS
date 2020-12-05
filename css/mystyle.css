@@ -1809,7 +1809,7 @@ html, body {
     }
     .image-section{
         height: 60vh;
-        background: url('../images/About\ page.jpg') top/cover no-repeat;
+        background: url('../images/AboutPage.jpg') top/cover no-repeat;
     }
 
     /* **********************************| Profile |******************************** */
@@ -1853,8 +1853,8 @@ html, body {
 
     .list{
         color: white;
-        font-style: bold;
-        font-size: 20px;
+        font-style: italic;
+        font-size: 18px;
     }
     
      li{
@@ -1871,7 +1871,7 @@ html, body {
 
     .mission-txt{
         font-size: 25px;
-        padding-top: 40px;
+        padding-top: 60px;
     }
 
     .mission-body{
@@ -1891,7 +1891,7 @@ html, body {
     .value-sub{
         /* background-color: darkgreen; */
         margin-left: 15px;
-        padding-top: 60px;
+        padding-top: 25px;
         font-size: 18px;
     }
 
