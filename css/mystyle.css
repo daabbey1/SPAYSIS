@@ -150,6 +150,7 @@ html, body {
     /* **********************************| Profile |******************************** */
     .profile{
         background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+        padding: 450px;
     }
 
     .profile-body{
@@ -157,6 +158,8 @@ html, body {
         opacity: 0.7;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        padding: 450px !important;
+
     }
 
     .profile-txt{
@@ -185,18 +188,23 @@ html, body {
     }
 
     .lists-info{
-        list-style-type: square;
+        list-style-type: none;
         margin-left: -25px;
+        font-size: 50%;
+        line-height: 2;
     }
+
 
     li{
         margin-bottom: 5px;
         color: rgb(55, 203, 248);
+        margin-top: 30px;
     }
     .list{
         color: white;
         font-style: italic;
         font-size: 17px;
+
     }
 
     .hr-line{
@@ -559,6 +567,7 @@ html, body {
     /* **********************************| Profile |******************************** */
     .profile{
         background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+        margin-top: -10% !important;
     }
 
     .profile-body{

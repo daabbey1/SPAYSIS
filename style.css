@@ -1,0 +1,22 @@
+html,body{
+	overflow-x: hidden;
+}
+::-ms-input-placeholder {
+	color: white;
+}
+
+.carousel-inner h2{
+	font-weight: bold;
+}
+
+.footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000022;
+	/*height: 12.9vh;*/
+}
+
+.social{
+	background-color: #000681;
+}
