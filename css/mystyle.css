@@ -1927,17 +1927,36 @@ html, body {
         margin-bottom: 100px;
     }
 
-    .infrastructure-box{
+    .card{
+        height: 42vh;
+    }
+    .card:hover{
+        background: rgb(78, 78, 78);
+        height: 42vh;
+        color: aliceblue;
+    }
+    .card img{
+        height: 35vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+    }
+    /* .infrastructure-box{ */
+        /* height: 60vh; */
         /* display: flex;
         align-items: center;
         justify-content: center; */
         /* text-align: center ; */
-        height: 40vh;
+        /* height: 40vh;
         border: 1px solid rgb(218, 215, 215);
-        background: url('../images/deeper life2.jpg') center/cover no-repeat;
+        background: url('../images/deeper life2.jpg') center/cover no-repeat; */
     }
 
-    .architecture-box{
+    .architecture-bo{
         /* display: flex;
         align-items: center;
         justify-content: center; */
@@ -1946,40 +1965,40 @@ html, body {
         background: url('../images/architecture.png') center/cover no-repeat;
     }
 
-    .industrial-box{
+    .industrial-bo{
         /* display: flex;
         align-items: center;
         justify-content: center; */
-        height: 40vh;
+        /* height: 40vh;
         border: 1px solid rgb(218, 215, 215);
-        background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat;
+        background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat; */
     }
 
-    .build-box{
+    .build-bo{
         /* display: flex;
         align-items: center;
         justify-content: center; */
-        height: 40vh;
+        /* height: 40vh;
         border: 1px solid rgb(218, 215, 215);
-        background: url('../images/Land.png') center/cover no-repeat;
+        background: url('../images/Land.png') center/cover no-repeat; */
     }
 
-    .planning-box{
+    .planning-bo{
         /* display: flex;
         align-items: center;
         justify-content: center; */
-        height: 40vh;
+        /* height: 40vh;
         border: 1px solid rgb(218, 215, 215);
-        background: url('../images/barrier.jpg') center/cover no-repeat;
+        background: url('../images/barrier.jpg') center/cover no-repeat; */
     }
-    .range-box{
+    .range-bo{
         /* display: flex;
         align-items: center;
         justify-content: center; */
         /* position: relative; */
-        height: 40vh;
+        /* height: 40vh;
         border: 1px solid rgb(218, 215, 215);
-        background: url('../images/range1.jpg') center/cover no-repeat;
+        background: url('../images/range1.jpg') center/cover no-repeat; */
     }
 
     .area-box-txt{
