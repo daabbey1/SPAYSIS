@@ -1843,7 +1843,7 @@ html, body {
 
     .profile-txt{
         font-size: 50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         font-weight: 550;
     }
 
@@ -1898,7 +1898,12 @@ html, body {
     .value-txt{
         font-size: 25px;
         padding-top: 20px;
-    }    
+    }  
+    
+    .prof-seperate{
+        color: rgb(4, 201, 250);
+        font-weight: 900;
+    }
 
     .value-body{
         font-size: 18px;
@@ -1908,7 +1913,7 @@ html, body {
     /* ***********************| Business Areas | ********************** */
 
     .business{
-        margin-top: 80px;
+        margin-top: 20px;
         text-align: center;
         margin-bottom: 20px;
         /* background-color: orange; */
