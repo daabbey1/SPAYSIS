@@ -127,6 +127,22 @@ html,body{
 	font-weight: bold;
 }
 
+.trinity{
+    /* color: rgb(179, 6, 6); */
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+    /* background-color: black; */
+    width: 100% !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-radius: 75px; */
+    /* opacity: 0.7; */
+}
+
+.slide-txt{
+    font-weight: 500;
+    font-size: 20px;
+}
 .foot-body{
     /* display: inline; */
     /* display: flex; */
