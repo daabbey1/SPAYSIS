@@ -1927,54 +1927,90 @@ html, body {
         margin-bottom: 100px;
     }
 
-
     .infrastructure-box{
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
+        /* text-align: center ; */
         height: 40vh;
-        background: url('../images/AERIAL VIEW TOWARDS THE ENTRANCE.jpg') center/cover no-repeat;
+        border: 1px solid rgb(218, 215, 215);
+        background: url('../images/deeper life2.jpg') center/cover no-repeat;
     }
 
     .architecture-box{
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         height: 40vh;
-        /* margin-top: 30px; */
+        border: 1px solid rgb(218, 215, 215);
+        background: url('../images/architecture.png') center/cover no-repeat;
+    }
+
+    .industrial-box{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        height: 40vh;
+        border: 1px solid rgb(218, 215, 215);
         background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat;
     }
 
     .build-box{
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         height: 40vh;
-        background: url('../images/2.RGB_color final.jpg') center/cover no-repeat;
+        border: 1px solid rgb(218, 215, 215);
+        background: url('../images/Land.png') center/cover no-repeat;
     }
 
     .planning-box{
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         height: 40vh;
-        /* margin-top: 30px; */
-        background: url('../images/3.RGB_color final.jpg') center/cover no-repeat;
+        border: 1px solid rgb(218, 215, 215);
+        background: url('../images/barrier.jpg') center/cover no-repeat;
+    }
+    .range-box{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* position: relative; */
+        height: 40vh;
+        border: 1px solid rgb(218, 215, 215);
+        background: url('../images/range1.jpg') center/cover no-repeat;
     }
 
     .area-box-txt{
         color: aliceblue;
         font-size: 2.3rem;
         font-weight: 500;
-        /* background-color: black;
-        opacity: 0.7; */
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+        /* position: absolute;
+        top: 80%; */
+        /* padding-top: 240px; */
         
         /* background-color: darksalmon; */
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
     }
 
     .area-color{
         /* background-color: black; */
-        opacity: 1;
+        /* opacity: 1; */
         /* color: white; */
     }
 
