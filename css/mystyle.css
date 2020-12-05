@@ -1915,7 +1915,7 @@ html, body {
     .business{
         margin-top: 20px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         /* background-color: orange; */
     }
 
@@ -1924,7 +1924,7 @@ html, body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         font-weight: 600;
-        margin-bottom: 100px;
+        /* margin-bottom: 150px; */
     }
 
     .card{
@@ -1932,12 +1932,14 @@ html, body {
         border: 1px solid ;
     }
     .card:hover{
-        background: rgb(78, 78, 78);
+        background: #031c4e;;
         /* height: 42vh; */
         color: aliceblue;
     }
     .card img{
-        height: 35vh;
+        height: 30vh;
+        /* padding-left: 15px;
+        padding-right: 15px; */
         margin-top: 20px;
     }
 
