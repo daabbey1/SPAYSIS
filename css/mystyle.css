@@ -2188,15 +2188,17 @@ html, body {
     .foot{
         background-color:#001744;
         color: aliceblue;
-        text-align: center;
-        display: flex;
+        /* text-align: center; */
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
     }
 
     .foot-txt{
         /* padding-right: 30px; */
         font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         /* background-color: orange; */
         /* text-align: center; */
     }
@@ -2207,6 +2209,9 @@ html, body {
         /* font-size: 25px; */
         /* justify-content:right;  */
         /* justify-items: flex-end; */
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     } 
 }
 
