@@ -1929,6 +1929,7 @@ html, body {
 
     .card{
         /* height: 42vh; */
+        border: 1px solid ;
     }
     .card:hover{
         background: rgb(78, 78, 78);
