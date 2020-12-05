@@ -1809,7 +1809,7 @@ html, body {
     }
     .image-section{
         height: 60vh;
-        background: url('../images/About\ page.jpg') center/cover no-repeat;
+        background: url('../images/About\ page.jpg') top/cover no-repeat;
     }
 
     /* **********************************| Profile |******************************** */
