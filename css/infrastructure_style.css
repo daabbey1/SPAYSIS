@@ -116,91 +116,64 @@ html, body {
     .fa-search{
         font-size: 22px;
     }
-    
-    /* ***********************| Image Section | ********************** */
-    .image-section{
-        height: 60vh;
-        background: url('../images/AboutPage.jpg') top/cover no-repeat;
-    }
 
-    /* ***********************| Business Areas | ********************** */
-    .business-section{
-        margin-bottom: 25px;
-    }
-
-    .business{
-        margin-top: 0px;
-        text-align: center;
-        margin-bottom: 10px;
-        /* background-color: orange; */
-    }
-
+    /* *********************| Infrastructure Planning |****************** */
     .business-txt{
         color: #031c4e;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         font-weight: 600;
-        /* margin-bottom: 150px; */
-    }
-
-    .card{
-        border: 1px solid ;
-    }
-
-    .card_link{
-        color: #031c4e ;
+        display: block;
         text-align: center;
-        text-decoration: none;
-    }
-    
-    .card_link:hover{
-        color: white;
-        background-color: #000022;
-        animation-delay: 4s;
-        text-decoration: none;
-    }
-    .card:hover{
-        background: #000022;
-        /* color: aliceblue !important;
-        animation-delay: 2s; */
-        /* transition: width 9s linear 60s; */
-    }
-    .card img{
-        height: 30vh;
         margin-top: 20px;
+        margin-bottom: 10px;
     }
 
-    .card-text{
+    /* ***************| Infrastructure Profile |*************** */
+    .body-section{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .left-col{
+        /* height: 100vh; */
+        background: url('../images/infraProfile.jpg') top/cover no-repeat;
+    }
+    .right-profile{
+        /* background-color: orange; */
+        padding-left: 25px;
+        /* padding-right: 25px; */
+    }
+
+    .profile-txt{
         font-size: 23px;
-        text-align: center;
         font-weight: 600;
+        color: black;
     }
 
-    .card-text a{
-        color: #031c4e ;
+    .profile-body{
+        font-size: 20px;        
+        padding-bottom: 20px;
     }
-      
 
-    .area-box-txt{
-        color: aliceblue;
-        font-size: 1.8rem;
-        font-weight: 500;
-        line-height: 40px;
-        text-align: center;
-        background-color: black;
-        opacity: 0.7;
+    /* ************************| Projects |******************** */
+    .projects{
+        margin-top: 45px;
+        margin-bottom: 25px;
     }
-    .area-color{
-        color: aliceblue !important;
-        background-color:black;
-        opacity: 0.7 !important;
-        line-height: 40px;
-        padding-bottom: 10px;
-        /* width: 100%; */
-        /* display: inline; */
-        margin-top: 50.9%;
-        
+    .project-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 50px;
+        /* display: block; */
+        /* background-color: brown; */
     }
+
+    .card-img img{
+        padding: 5px;
+    }
+
 
     /* ************************| Footer |******************** */
     .foot{
