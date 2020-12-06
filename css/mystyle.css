@@ -12,9 +12,6 @@ html, body {
 
 /* xs */
 @media(max-width: 575px){
-    .navbar-toggler{
-        border-color: white;
-    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -43,7 +40,7 @@ html, body {
     *******************************
     .search-input{
         font-size: 18px;
-        border-radius: 45px;
+        /* border-radius: 65px !important; */
         color: white;
         outline-style: none;
         border: none;
@@ -62,7 +59,7 @@ html, body {
     }
 
     .sub-sech{
-        width: 60vh;
+        /* width: 60vh; */
         /* text-align: center; */
 
     }
@@ -72,29 +69,6 @@ html, body {
         justify-content: center;
         align-items: center; */
     }
-    ********************
-
-    /* .search-input{
-        font-size: 18px;
-        border-radius: 45px;
-        color: white;
-        outline-style: none;
-        border: none;
-    } */
-    /* .search-btn{
-    font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px; 
-        background-color: rgb(0, 195, 255);
-        padding:7px 16px 7px 16px;
-        color: white;
-        margin-top: -70px;
-        margin-left: 255px;
-        border-radius: 0px 45px 45px 0px;
-    } */
-
-    /* .search-box{
-        margin-top: 12px;
-    } */
 
     .fa-search{
         font-size: 22px;
@@ -110,7 +84,7 @@ html, body {
     .nav-item a:hover{
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid orange;
     }
 
 
@@ -140,11 +114,11 @@ html, body {
         font-size: 16px;
         display: block;
         color: aliceblue;
-        border-bottom: 1px solid aliceblue;
+        border-bottom: 1px solid orange;
     }
     .image-section{
-        height: 55vh;
-        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+        height: 45vh;
+        background: url('../images/AboutPage.jpg') top/cover no-repeat;
     }
 
     /* **********************************| Profile |******************************** */
@@ -154,268 +128,209 @@ html, body {
 
     .profile-body{
         background-color: #031c4e;
-        opacity: 0.7;
+        opacity: 0.85;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .left-section{
+        /* background-color: rgb(90, 84, 79); */
+        font-size: 16px;
+        /* margin-right: 15px; */
+    }
+
+     .right-section{
+         /* background-color: darkcyan; */
+        padding-top: 5px;
+        font-size: 16px;
+        /* margin-left: 15px; */
     }
 
     .profile-txt{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 550;
-    }
-
-    .left-section{
-        padding-top: 50px;
-        font-size: 17px;
-        margin-left: 25px;
-        margin-right: 25px;
-        /* background-color: aqua; */
-        /* text-align: justify; */
-        box-sizing: border-box;
-        /* border-bottom: 2px solid white; */
-    }
-
-    .right-section{
-        padding-top: 0px;
-        font-size: 17px;
-        margin-left: 25px;
-        margin-right: 25px;
-        /* border-bottom: 2px solid white; */
+        font-size: 40px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-weight: 450;
     }
 
     .lists-info{
         list-style-type: square;
-        margin-left: -25px;
+        margin-left: -22px;
     }
 
-    li{
-        margin-bottom: 5px;
-        color: rgb(55, 203, 248);
-    }
     .list{
         color: white;
         font-style: italic;
+        font-size: 16px;
+    }
+    
+     li{
+        color: rgb(55, 203, 248);
+    }
+
+    .vision-txt{
+        font-size: 25px;
+    }
+    
+    .vision-body{
+        font-size: 18px;
+    }
+
+    .mission-txt{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .mission-body{
         font-size: 17px;
+        padding-bottom: 20px;
     }
 
     .hr-line{
-        border-top: 3px solid white;
+        border-bottom: 2px solid white;
     }
 
-    .value-txt, .vision-txt, .mission-txt{
-        font-size: 27px;margin-left: 25px;
-    }
-
+    /* Second Row */
     .value{
-        margin-top: 30px;
-        margin-bottom: 25px;
+        /* background-color: darkgoldenrod; */
     }
-    .value-body, .vision-body, .mission-body{
+
+    .value-sub{
+        /* background-color: darkgreen; */
+        padding-top: 0px;
         font-size: 17px;
-        margin-left: 25px;
-        margin-right: 25px;
     }
 
-    /* *******************| Vision Mission & Value |***************** */
-    .statements{
-        margin-top: 80px;
-        text-align: center;
-        margin-bottom: 80px;
-        font-size: 32px;
+    .value-txt{
+        font-size: 25px;
+        padding-top: 20px;
+    }  
+    
+    .prof-seperate{
+        color: rgb(4, 201, 250);
+        font-weight: 900;
     }
 
-    .vision{
-        background-color: #031c4e;
-        color: white;
-        padding: 25px 25px;
-        margin-left: -25px;
-        margin-top: -30px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .mission{
-        color: white;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .miss{
-        /* background-color: rgb(5, 5, 85); */
-        background-color:#031c4e;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 25px 25px;
-    }
-
-    .values{
-        background-color:#031c4e;
-        color: white;
-        padding: 25px 25px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .fa-caret-down, .fa-caret-up{
-        margin-left: 5px;
-        font-size: 21px;
+    .value-body{
+        font-size: 18px;
     }
 
     /* ***********************| Business Areas | ********************** */
 
     .business{
-        margin-top: 80px;
+        margin-top: 20px;
         text-align: center;
-        margin-bottom: 20px;
+        /* margin-bottom: 10px; */
         /* background-color: orange; */
     }
 
     .business-txt{
         color: #031c4e;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 21px;
         font-weight: 600;
-        margin-bottom: 100px;
+        /* margin-bottom: 150px; */
     }
 
-
-    .infrastructure-box{
-        text-align: center;
-        height: 40vh;
-        background: url('../images/AERIAL VIEW TOWARDS THE ENTRANCE.jpg') center/cover no-repeat;
+    .card{
+        border: 1px solid ;
+        margin-top: 15px;
     }
-
-    .architecture-box{
-        text-align: center;
-        height: 40vh;
+    .card:hover{
+        background: #000022;
+        color: aliceblue;
+        animation-delay: 2s;
+        /* transition: width 9s linear 60s; */
+    }
+    .card img{
+        height: 20vh;
         margin-top: 20px;
-        background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat;
     }
 
-    .build-box{
+    .card-text{
+        font-size: 18px;
         text-align: center;
-        height: 40vh;
-        background: url('../images/2.RGB_color final.jpg') center/cover no-repeat;
+        font-weight: 600;
     }
-
-    .planning-box{
-        text-align: center;
-        height: 40vh;
-        margin-top: 20px;
-        background: url('../images/3.RGB_color final.jpg') center/cover no-repeat;
-    }
+      
 
     .area-box-txt{
         color: aliceblue;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        font-size: 1.5rem;
-        font-weight: 600;
-        /* background-color: orange; */
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
     }
-
     .area-color{
-        /* background-color: black; */
-        opacity: 1;
-        /* color: white; */
-    }
-
-    .area-box-txt:hover{
-        color: aliceblue;
-        font-size: 3.7rem;
-        font-weight: 600;
-        opacity: 0.6;
-        background-color: #000022;
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
     }
 
     /* ****************************| Partners & Clients |************************ */
+    .rowAppearance{
+        display: none;
+    }
+    
+    /* visibility: hidden; */
     .partner-client{
-        margin-top: 50px;
-    }
-
-    .Partners{
-        /* background-color: rgb(5, 5, 85); */
+        margin-top: 70px;
         background-color: #000022;
-        color:rgb(5, 5, 85);
-    }
-
-    .partner-body{
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .partner-txt{
         color: aliceblue;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 200;
-        text-align: center;
-        text-decoration: underline;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
     }
 
-    .build img{
-        margin-left: 30px;
-        margin-right: 30px;
-        width: 250px;
-        height: 70px;
-        background-color: #fff;
-        margin-top: 15px;
+    .contact-head, .partner-head, .client-head{
+        font-size: 32px;
+        border-bottom: 2px solid orange;
     }
-    .acon img{
-        background-color: aliceblue;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 250px;
-        height: 70px;
-        padding-top: 5px;
-        text-align: center;
-        margin-top: 15px;
+    
+    /******** Contact ********/
+    .office{
+        font-size: 23px;
+        font-style: bold;
     }
-    .joeamah img{
-        margin-left: 30px;
-        margin-right: 30px;
-        width: 250px;
-        height: 70px;
-        margin-top: 15px;
+
+    .ghana,.germany, .uk{
+        margin-top: 20px;
+    }
+
+    /******* Partners *******/
+    .partner-sub-title{
+        font-size: 23px;
+        font-style: bold;
     }
 
     .build, .acon, .joeamah{
-        text-align: center;
+       margin-top: 20px;
     }
 
-    .clients{
-        background-color: #000022;
-        color:aliceblue;
-    }
 
-    .clients-txt{
-    color: aliceblue;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 200;
-        text-align: center;
-        text-decoration: underline;
+    /******** Clients *******/
+    .valued-client{
+        font-size: 23px;
+        font-style: bold;
     }
 
     .client-body{
-        padding-top: 30px;
+        margin-top: 20px;
     }
 
-    .food,.kisr,.estate, .knust{
-        /* margin-left: 15px; */
-        /* margin-right: 15px; */
-        /* padding: 30px; */
-        text-align: center;
-        font-size: 18px;
-        font-weight: 100;
-    }
-
-    .clean, .sol, .fichtner, .impact{
-        /* margin-left: 15px;
-        margin-right: 15px; */
-        /* padding: 30px; */
-        text-align: center;
-        font-size: 18px;
-        font-weight: 100;
+    .seperate{
+        color: rgb(40, 40, 252);
     }
 
     /* ************************| Footer |******************** */
@@ -1685,9 +1600,6 @@ html, body {
 
 /* xl */
 @media(min-width: 1200px) {
-    .navbar-toggler{
-        /* border-color: white; */
-    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -1728,15 +1640,34 @@ html, body {
         text-decoration: none;
         border-bottom: 1px solid  orange;
     }
-
-
     .dropdown-menu{
-        margin-top: 5px;
+        /* margin-top: 5px; */
         margin-left: -97.9vh;
         /* margin-right: 100vh; */
         background-color:  #0c7ad0;
         color: aliceblue;
         text-align: center;
+    }
+
+     .sub-tab{
+        width: 250vh !important;
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
     }
 
     .search-input{
@@ -1779,30 +1710,7 @@ html, body {
     
     
 
-    .sub-tab{
-        width: 199vh !important;
-    }
-
-    .hover-tab{
-        background-color: #0c7ad0;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin-top: 150px;
-        /* margin-left: 350px; */
-    }
-    .dropdown-menu{
-        margin-top: 15px;
-    }
-
-
-    .hover-link a{
-        margin-right: 40px;
-        font-size: 16px;
-        /* display: block; */
-        color: aliceblue;
-        border-bottom: 1px solid  #0c7ad0;
-    }
+   
     .image-section{
         height: 60vh;
         background: url('../images/AboutPage.jpg') top/cover no-repeat;
@@ -1924,18 +1832,16 @@ html, body {
     }
 
     .card{
-        /* height: 42vh; */
         border: 1px solid ;
     }
     .card:hover{
         background: #000022;
-        /* height: 42vh; */
         color: aliceblue;
+        animation-delay: 2s;
+        /* transition: width 9s linear 60s; */
     }
     .card img{
         height: 30vh;
-        /* padding-left: 15px;
-        padding-right: 15px; */
         margin-top: 20px;
     }
 
@@ -1954,11 +1860,6 @@ html, body {
         text-align: center;
         background-color: black;
         opacity: 0.7;
-        /* position: absolute;
-        top: 80%; */
-        /* padding-top: 240px; */
-        
-        /* background-color: darksalmon; */
     }
     .area-color{
         color: aliceblue !important;
@@ -1972,21 +1873,10 @@ html, body {
         
     }
 
-   
-
-    .area-box-txt:hove{
-        color: aliceblue;
-        padding-top: 14vh;
-        padding-bottom: 14vh;
-        padding-left: 7vh;
-        padding-right: 7vh;
-        font-size: 2.7rem;
-        font-weight: 600;
-        opacity: 0.6;
-        background-color: #000022;
-    }
-
     /* ****************************| Partners & Clients |************************ */
+    .dropAppearance{
+        display: none;
+    }
     .partner-client{
         margin-top: 70px;
         background-color: #000022;
@@ -1995,10 +1885,6 @@ html, body {
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 15px;
-    }
-
-    .contact{
-        /* background-color: orange; */
     }
 
     .contact-head, .partner-head, .client-head{
@@ -2039,91 +1925,6 @@ html, body {
 
     .seperate{
         color: rgb(40, 40, 252);
-    }
-
-    .Partners{
-        /* background-color: rgb(5, 5, 85); */
-        /* background-color: #000022;
-        color:rgb(5, 5, 85); */
-    }
-
-    .partner-body{
-        /* padding-top: 10px;
-        padding-bottom: 20px; */
-    }
-
-    .partner-txt{
-        /* color: aliceblue;
-        font-size: 35px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 200;
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 20px; */
-    }
-
-    .build img{
-        margin-left: 30px;
-        width: 240px;
-        height: 70px;
-        background-color: #fff;
-        margin-top: 15px;
-    }
-    .acon img{
-        background-color: aliceblue;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 240px;
-        height: 70px;
-        padding-top: 5px;
-        text-align: center;
-        margin-top: 15px;
-    }
-    .joeamah img{
-        /* margin-left: 30px; */
-        margin-right: 30px;
-        width: 240px;
-        height: 70px;
-        margin-top: 15px;
-    }
-
-    
-
-    .clients{
-        /* background-color: #000022;
-        color:aliceblue; */
-    }
-
-    .clients-txt{
-    /* color: aliceblue;
-        font-size: 35px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 200;
-        text-align: center;
-        text-decoration: underline; */
-    }
-
-    .client-body{
-        /* padding-top: 20px;
-        padding-bottom: 25px; */
-    }
-
-    .food,.kisr,.estate, .knust{
-        /* margin-left: 15px; */
-        /* margin-right: 15px; */
-        /* padding: 30px; */
-        /* text-align: center;
-        font-size: 20px;
-        font-weight: 100; */
-    }
-
-    .clean, .sol, .fichtner, .impact{
-        /* margin-left: 15px;
-        margin-right: 15px; */
-        /* padding: 30px; */
-        /* text-align: center;
-        font-size: 20px;
-        font-weight: 100; */
     }
 
     /* ************************| Footer |******************** */
