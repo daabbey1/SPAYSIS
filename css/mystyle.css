@@ -293,6 +293,10 @@ html, body {
         padding-bottom: 15px;
     }
 
+    .partner-body2{
+        background-color: orange;
+    }
+
     .contact-head, .partner-head, .client-head{
         font-size: 32px;
         border-bottom: 2px solid orange;
@@ -1856,17 +1860,42 @@ html, body {
         display: none;
     }
     .partner-client{
-        margin-top: 70px;
-        background-color: #000022;
-        color: aliceblue;
+        margin-top: 25px;
+        /* background-color: #000022; */
+        /* color: aliceblue; */
+        color: black;
         padding-top: 25px;
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 15px;
     }
 
+    /* .partner-head{
+        font-size: 32px;
+        border-bottom: 2px solid orange;
+        text-align: center;
+    } */
+
+     .partner-body{
+         text-align: right;
+         /* margin-top: 60px; */
+        /* background-color: green; */
+    }
+     .partner-body2{
+         /* text-align: right; */
+         /* margin-top: 69px; */
+        /* background-color: orange; */
+    }
+
+    
     .contact-head, .partner-head, .client-head{
         font-size: 32px;
+        font-weight: 700;
+        text-align: center !important;
+        /* background-color: chocolate; */
+        display: block;
+        margin: auto;
+        width: 250px;
         border-bottom: 2px solid orange;
     }
     
