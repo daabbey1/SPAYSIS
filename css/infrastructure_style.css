@@ -136,7 +136,7 @@ html, body {
     }
     .left-col{
         /* height: 100vh; */
-        background: url('../images/infraProfile.jpg') top/cover no-repeat;
+        background: url('../images/infraProfile.jpg') center/cover no-repeat;
     }
     .right-profile{
         /* background-color: orange; */
